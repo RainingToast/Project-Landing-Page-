@@ -1,8 +1,46 @@
-html {
- margin: 0;
- min-height: 100vh;
- display: flex;
- flex-direction: column;
+.header {
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+.big {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.container1, .container2, .container3 {
+    display: flex;
+    flex: 1;
+}
+
+.headerplus {
+    display: flex;
+
+}
